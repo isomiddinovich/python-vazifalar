@@ -1,17 +1,13 @@
 """11-dars Tarmoqlanish if va else
 """
-x=float(input("Juft son kiriting: "))
-if x%2!=0:
-    print("Bu juft son emas")
+x=float(input("Birinchi sonni kiriting: " ))
+y=float(input("Ikkinchi sonni kiriting: "))
+if x==y:
+    print(f"{x}={y}")
+elif x>y:
+    print(f"{x}>{y}")
 else:
-    print("Raxmat")
-
-        
-        
-        
-        
-        
-        
+    print(f"{x}<{y}")
         
         
         

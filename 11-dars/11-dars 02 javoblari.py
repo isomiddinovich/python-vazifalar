@@ -1,14 +1,10 @@
 """11-dars Tarmoqlanish if va else
 """
-x=float(input("Juft son kiriting: "))
-if x%2!=0:
-    print("Bu juft son emas")
-else:
+son=float(input("Juft sonn kiriting: "))
+if son%2==0:
     print("Raxmat")
-
-        
-        
-        
+else:
+    print("Juft son kiriting bu juft son emas")
         
         
         
